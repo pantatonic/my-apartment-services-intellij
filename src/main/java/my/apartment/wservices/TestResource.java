@@ -58,7 +58,8 @@ public class TestResource {
             jsonObjectReturn.put(CommonString.RESULT_STRING, CommonString.ERROR_STRING);
         }
 
-        jsonObjectReturn.put("okokok", "888");
+        jsonObjectReturn.put("aaa", "Aaa");
+        jsonObjectReturn.put("bbb", "Bbb");
 
         return jsonObjectReturn.toString();
     }
